@@ -7,6 +7,9 @@ margin-right: 2em;
 
 
 }
+body{
+	background-image: url(https://cdn.pixabay.com/photo/2014/12/15/15/36/cloth-569222__340.jpg);
+}
 .he{
 	text-align: center;
 	padding-top: 0.8em;
@@ -61,3 +64,18 @@ margin-right: 2em;
 	background-color: #333333;
 }
 
+@media screen and (max-width:959px) {
+  .gh{
+	
+	float: right;
+	margin: 0px;
+
+}
+.gh div{
+	box-shadow: 2.5px 2.5px 2.5px 2.5px #333333;
+	text-align: center;
+	width: 40%
+	padding:3rem;	
+
+}
+}
