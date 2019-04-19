@@ -60,7 +60,7 @@ body{
   	width: 100%;
   }
   #but{
-  	width: 100%;
+  	
   	display: grid;
   	grid-template-columns: 1fr;
   	
@@ -82,7 +82,7 @@ body{
 		width: 320px;
 	}
 	.b{
-		margin-left: 0%;
+		margin-left: 2%;
 	}
 
 	}
