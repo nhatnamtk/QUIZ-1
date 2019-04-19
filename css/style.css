@@ -56,7 +56,6 @@ body{
 	}
 	.head{
 		border-radius: 20px;
-		
 		padding: 0px;
 		background-size: 100%;
 		margin-left: 45%;
@@ -132,18 +131,17 @@ body{
 	transition: font-size 2s;
 	font-size: 1.5rem;
 	font-style: italic;
+	margin: 0% 40%;
 }
 #head:hover{
 	font-size: 20px;
 	border:solid 3px black;
-	
 	animation : animate 8s linear infinite;
 
 }
 
 
-@keyframes animate
-{
+@keyframes animate{
     0%
     {
         background-position : 0% ;
@@ -152,4 +150,8 @@ body{
     {
         background-position : 400% ;
     }
+}
+
+#ques{
+	margin:0% 20%;
 }

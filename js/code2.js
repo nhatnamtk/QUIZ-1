@@ -21,11 +21,9 @@ var questions = [
    "F=(2πnrI)/(10<sup>7</sup>(x<sup>2</sup> + r<sup>2</sup>)<sup>3</sup>)"],
 
 ["Question : value of current is adjusted such that the deflection in galvanometer lies between:", "60°-65°", "70°-75°", "80°-85°", "90°-95°"]
-];
+,
 
-["Question :The type of galvanometer used is:", "Weston type galvanometer", "Astatic galvanometer", "Stewart and Gee type galvanometer", "Ballistic galvanometer"]
-];
-
+["Question :The type of galvanometer used is:", "Weston type galvanometer", "Astatic galvanometer", "Stewart and Gee type galvanometer", "Ballistic galvanometer"],
 ["Question : Maximum value of curve corresponds to which position of needle of the coil?", "Center", "Axis", "On The Cirsumference", "None of above"]
 ];
 

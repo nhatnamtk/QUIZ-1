@@ -1,32 +1,40 @@
 var questions = [
-    ["Question : On what factors numerical aperture depends?", " Wavelength of light", "Dimensions of core and cladding", "Refractive index of core and cladding", " Length of  core and cladding"],
+    ["Question : Which semiconductor material was used in the four probe's method to determine the energy band gap ?","Germanium","silicon","serellium","tin","A"],
+["Question : Which of the following band gaps can be considered to be that of semiconductors ?","0-1ev","1-4ev","4-6ev",">6ev","B"],
 
-["Question : What is working principle of optical fibre?", "Total Internal Refelction", "Refraction", "Difrraction", "Reflection"],
+["Question : Which among the following is not a subunit of four probes method ?","Oven controller","Multirange digital voltmeter","constant current generator","Digital ammmeter","D"],
 
+["Question : What is the order of thickness of depletion layer ?","10<sup>-4</sup>","10<sup>-5</sup>","10<sup>-6</sup>","10<sup>-8</sup>","C"],
 
-["Question :  Which optical fibre is suited for short distance?", "Single mode fibre", "Multi mode fibre", "Step Index Single Mode", "Grated index Single mode"],
-["Question  :What is the condition required for total internal reflection? ", "the angle of incidence is greater than the critical angle", "the angle of incidence is equal to critical angle", "the angle of incidence is less than critical angle", "the angle of incidence is greater than 90"],
+["Question : Which factor among the following doenot control the resistivity of a semicondutor ?","Temperature","Band gap","crystalline orientation","Shape of conductor","D"],
 
-["Question : What are the main components of optical fibre?", "Reflector and Core", "Glass slab and Reflector", "Core and cladding", "Cladding and Reflector"]
-,["Question : Why optical fibres are considered over metallic wires?", "Less fragilty than copper wire", "Less costly", "Easy to intsall", "Less signal strength loss"]
-,
+["Question : The temperature coefficient of resistance of a semiconductor is :","Positive","Negative","Zero","none of these","B"],
 
+["Question : What is the full form of RTD sensors used in oven for variation of temperature of crystal ?","Resistance temperature detectors","real time detectors","Resistivity and temperature detectors","Resistance time detectors","A"],
 
-["Question :What is  formula for critical angle ? ", "sin &#952 = <span>&#956;</span>  <sub>1</sub> / &#956 <sub>2</sub>  ", " sin  &#952 =  &#956  <sub>2</sub> / &#956 <sub>1</sub>  ", " tan &#952 =  &#956  <sub>1</sub> / &#956 <sub>2</sub>  ", "tan &#952 =  &#956  <sub>2</sub> / &#956 <sub>1</sub> "],
-["Question : Which optical fibre is used for longer distances?", "Mutli mode fibre", "Single mode fibre", "Grated multi mode fibre", "Steep index multi mode fibre"],
+["Question : Spacing between the probes used in the experiment is :","0.1cm","0.2cm","0.3cm","0.4cm","B"],
 
-["Question : What is the relationship between the refractive index of core(n1) and cladding(n2)?", "n2>n1", "n1>n2", "n1=n2", "n1>>n2"],
+["Question : The four probes used for resistivity measurement contact surface at points lie on :","circle","line","ellipse","parabola","B"],
 
-["Question : Which of the following loss does not occur in optical fibre?", "Bending loss", "Attenuation loss", "Heating loss", "Absorption loss"]
+["Question : The resistivity of pure germanium under standard conditions is about :","6*10<sup>4</sup> ohm-cm","60 ohm-cm","3*10<sup>6</sup> ohm-cm","6*10<sup>-4</sup> cm"],
+
+["Question : The oven temperature used in the four probes method varies from room temperature to about :","200 degrees","350 degrees","375 degrees","425 degrees","A"],
+
+["Question : The RTD elemet can''t be made of the following material :","Platinum","Nickel","Copper","Cobalt","D"],
+
+["Question : The graph between log of resistivity and reciprocal of temperature gives :","Straight line","Parabolic path","Circle","zig zag curve","A"],
+
+["Question : Value of boltzmann's constant is :","8.6*10<sup>-5</sup>","4.2*10,<sup>-5</sup>","8.6*10<sup>-3</sup>","8.6*10<sup>-7</sup>","A"],
+
+["Question : The energy gap is much more in silicon than in germanium because :","It has less number of electrons","It has high atomic mass number","Its crystal has much stronger bonds called ionic bonds","Its valence electrons are more tightly bond to parent nuclei","D"]
 ];
 var f=0,a,b,c,d,question,l;
 
-var choices=["C",'A',"B","A","C","D","B","B","A","C",];
 var x;
 var att=0,p=0,s=0;
 getquestion();
 		function getquestion(){
-			x=Math.round(Math.random()*7);
+			x=Math.round(Math.random()*15);
 			if(s==1)
 			{	s=0;
 				getquestion();
@@ -90,7 +98,7 @@ function checkd()
     run();
 }
 function run(){
-	var ans=choices[x];
+	var ans=questions[x][5];
     
         if(l==ans)
         {
@@ -102,38 +110,3 @@ function run(){
     getquestion();
     
 }
-/*
-function prev()
-{
-    x--;
-    getquestion();
-}
-
-document.querySelector('#para').textContent=ques;
-document.querySelector('#para1').textContent="Question "+(x+1)+ " Out of "+questions.length;
-
-document.querySelector('#b1').textContent=a;
-document.querySelector('#b2').textContent=b;
-document.querySelector('#b3').textContent=c;
-document.querySelector('#b4').textContent=d;
-
-var ans=document.querySelector('#b4').value;
-
-
-document.querySelector('#b4').addEventListener('click',check);
-document.querySelector('#b3').addEventListener('click',check);
-document.querySelector('#b2').addEventListener('click',check);
-document.querySelector('#b1').addEventListener('click',check);
-
-function check(){
-	if(ans==questions[x][5])
-	{
-		x++;
-	}
-	else
-	{
-		alert.textContent="Incorrect";
-	}
-}
-
-alert("Hello");*/
