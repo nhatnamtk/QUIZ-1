@@ -65,17 +65,14 @@ body{
 }
 
 @media screen and (max-width:959px) {
+  body{
+  background-size: 	100%;
+  
+  }
   .gh{
-	
-	float: right;
-	margin: 0px;
+  	display: grid;
+		grid-template-columns: 1fr;
+		justify-content:center;
+  }
 
-}
-.gh div{
-	box-shadow: 2.5px 2.5px 2.5px 2.5px #333333;
-	text-align: center;
-	width: 40%
-	padding:3rem;	
-
-}
 }
