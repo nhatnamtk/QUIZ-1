@@ -96,8 +96,8 @@ function run(){
         {
         	f++;
         }
-    alert(ans);
-    alert(l);
+
+    alert("You Attempted "+l);
     att++;
     getquestion();
     

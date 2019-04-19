@@ -98,3 +98,14 @@ body{
 	border-radius: 200px;
 	font-size: 20px;
 }
+.trans:hover{
+	border:solid black 3px;
+	border-radius: 200px;
+	font-size: 20px;
+}
+.trans{
+	transition: width 2s;
+	transition:border-radius 2s;
+	transition:border 2s;
+	transition: font-size 2s;
+}
