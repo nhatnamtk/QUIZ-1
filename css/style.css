@@ -1,0 +1,94 @@
+.container{
+	width: 960px;
+	margin: 0px auto;
+}
+h6{
+	margin-right: 0px;
+	margin-left: 90%;
+}
+body{
+	text-align: center;
+}
+#hr2{
+	width: 50%;
+	transition: width 2s;
+}
+/*#b1{
+	margin-left: px;
+
+}*/
+#but{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	position: absolute;
+	
+}
+	.b{
+		margin: 30px 180px;
+		background-color: #5C7861;
+		border-radius: 20px;
+		padding: 10px 20px;
+		width: 30%;
+		color: white;
+		text-align: center;
+		font-family: jokerman;
+		font-size: 20px;
+		transition: width 2s;
+
+		
+	}
+	.b:hover{
+		width: 200px;
+	}
+	#hr2:hover{
+		width: 40%;
+	}
+	.head{
+		border-radius: 20px;
+		background-color: #4B634F;
+		padding: 0px;
+		margin-left: 45%;
+		margin-right: 44%;
+		 transform: skewY(10deg);
+		 transition: width 10s;
+	}
+	@media screen and (max-width:959px) {
+  body {
+    background-color: #aaaaaa;
+  }
+  .container{
+  	width: 100%;
+  }
+  #but{
+  	width: 100%;
+  	display: grid;
+  	grid-template-columns: 1fr;
+  	
+  }
+  
+  .head{
+  	font-size: 15px;
+  }
+  h3{
+  	font-size: 13px;
+  }
+}
+
+@media screen and (max-width:320px) {
+	.container{
+		width: 320px;
+	}
+
+	}
+
+#ques{
+	transition:border-radius 2s;
+	transition:border 2s;
+	transition: font-size 2s;
+	
+}
+#ques:hover{
+	border:solid black 3px;
+	border-radius: 200px;
+	font-size: 20px;
+}
