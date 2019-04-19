@@ -39,6 +39,7 @@ body{
 	}
 	.b:hover{
 		width: 200px;
+		margin: auto;
 	}
 	#hr2:hover{
 		width: 40%;
