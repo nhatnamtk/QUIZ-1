@@ -65,6 +65,9 @@ body{
   	grid-template-columns: 1fr;
   	
   }
+  .b{
+  	margin-left: 35%;
+  }
   
   .head{
   	font-size: 15px;
@@ -77,6 +80,9 @@ body{
 @media screen and (max-width:320px) {
 	.container{
 		width: 320px;
+	}
+	.b{
+		margin-left: 0%;
 	}
 
 	}
