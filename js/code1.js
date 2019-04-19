@@ -12,7 +12,7 @@ var questions = [
 ,
 
 
-["Question :What is  formula for critical angle ? ", "sin <span>&#956;</span>  <sub>1</sub> / &#956 <sub>2</sub>  ", " sin  &#952 =  &#956  <sub>2</sub> / &#956 <sub>1</sub>  ", " tan &#952 =  &#956  <sub>1</sub> / &#956 <sub>2</sub>  ", "tan &#952 =  &#956  <sub>2</sub> / &#956 <sub>1</sub> "],
+["Question :What is  formula for critical angle ? ", "sin &#952 = <span>&#956;</span>  <sub>1</sub> / &#956 <sub>2</sub>  ", " sin  &#952 =  &#956  <sub>2</sub> / &#956 <sub>1</sub>  ", " tan &#952 =  &#956  <sub>1</sub> / &#956 <sub>2</sub>  ", "tan &#952 =  &#956  <sub>2</sub> / &#956 <sub>1</sub> "],
 ["Question : Which optical fibre is used for longer distances?", "Mutli mode fibre", "Single mode fibre", "Grated multi mode fibre", "Steep index multi mode fibre"],
 
 ["Question : What is the relationship between the refractive index of core(n1) and cladding(n2)?", "n2>n1", "n1>n2", "n1=n2", "n1>>n2"],
@@ -26,7 +26,7 @@ var x;
 var att=0,p=0,s=0;
 getquestion();
 		function getquestion(){
-			x=Math.round(Math.random()*10);
+			x=Math.round(Math.random()*7);
 			if(s==1)
 			{	s=0;
 				getquestion();
@@ -36,7 +36,7 @@ getquestion();
 				getquestion();
 
 			}
-			if(att>=10){
+			if(att>=7){
 				alert('You Got '+f+' Marks');
 				att=0;
 				f=0;
@@ -49,7 +49,7 @@ getquestion();
 			     b = questions[x][2];
 			     c = questions[x][3];
 			     d = questions[x][4];
-			document.getElementById("para1").innerHTML="Question "+(att+1)+" of 10";
+			document.getElementById("para1").innerHTML="Question "+(att+1)+" of 7";
 			document.getElementById("ques").innerHTML= question;
 
 			document.querySelector('#b1').innerHTML=a;

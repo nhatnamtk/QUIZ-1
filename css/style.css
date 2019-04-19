@@ -1,8 +1,8 @@
 body{
 background-image: url(https://backgroundcheckall.com/wp-content/uploads/2018/10/physics-project-background-8.jpg);
-	background-size: 100%;
+	background-size: cover;
 	
-	background-repeat: no-repeat;
+	
 
 }
 
@@ -56,12 +56,15 @@ body{
 	}
 	.head{
 		border-radius: 20px;
-		background-color: #4B634F;
+		
 		padding: 0px;
+		background-size: 100%;
 		margin-left: 45%;
 		margin-right: 44%;
 		 transform: skewX(10deg);
 		 transition: width 10s;
+		 background-image:linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+		 background-size: 400%;
 	}
 	@media screen and (max-width:959px) {
   body {
@@ -78,10 +81,18 @@ body{
   }
   .b{
   	margin-left: 27%;
+  	animation : animate 8s linear infinite;
+  	
   }
   
   .head{
   	font-size: 15px;
+  	padding-right: 40px;
+  	transition: font-size 2s;
+  	transition: border 2s;
+  	
+
+     
   }
   h3{
   	font-size: 13px;
@@ -121,4 +132,24 @@ body{
 	transition: font-size 2s;
 	font-size: 1.5rem;
 	font-style: italic;
+}
+#head:hover{
+	font-size: 20px;
+	border:solid 3px black;
+	
+	animation : animate 8s linear infinite;
+
+}
+
+
+@keyframes animate
+{
+    0%
+    {
+        background-position : 0% ;
+    }
+    100%
+    {
+        background-position : 400% ;
+    }
 }
