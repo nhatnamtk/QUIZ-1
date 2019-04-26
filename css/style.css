@@ -6,6 +6,32 @@ background-image: url(https://backgroundcheckall.com/wp-content/uploads/2018/10/
 
 }
 
+#exp{
+	position: absolute;
+	left: 44%;
+margin-top: 0px;
+font-size: 1.5rem;
+text-align: center;
+right: 44%;
+	
+}
+h3{
+	transition:border-radius 2s;
+	transition:border 2s;
+	transition: font-size 2s;
+	width: 100%;
+	font-style: italic;
+
+}
+h3:hover{
+	border: 3px solid black;
+	border-radius: 50px;
+	font-size: 20px;
+	padding: 0px;
+	
+}
+
+
 
 
 .container{
@@ -15,6 +41,12 @@ background-image: url(https://backgroundcheckall.com/wp-content/uploads/2018/10/
 h6{
 	margin-right: 0px;
 	margin-left: 90%;
+
+			font-size: 20px;
+			border: 10px solid transparent;
+  
+  border-image: url(https://www.freeiconspng.com/uploads/decorative-border-png-image-25.png) 17% round;
+		
 }
 body{
 	text-align: center;
@@ -31,7 +63,7 @@ body{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	position: absolute;
-	
+		
 }
 	.b{
 		margin: 30px 180px;
@@ -50,6 +82,7 @@ body{
 	.b:hover{
 		width: 200px;
 		margin: auto;
+
 	}
 	#hr2:hover{
 		width: 40%;
@@ -76,12 +109,14 @@ body{
   	
   	display: grid;
   	grid-template-columns: 1fr;
-  	
+  	margin-top: 60px;
+
+
   }
   .b{
   	margin-left: 27%;
   	animation : animate 8s linear infinite;
-  	
+  	  	
   }
   
   .head{
@@ -89,12 +124,13 @@ body{
   	padding-right: 40px;
   	transition: font-size 2s;
   	transition: border 2s;
-  	
+  	border-image: url(https://www.freeiconspng.com/uploads/decorative-border-png-image-25.png) 1 round;
 
      
   }
   h3{
   	font-size: 13px;
+
   }
 }
 
@@ -111,6 +147,11 @@ body{
 	transition:border 2s;
 	transition: font-size 2s;
 	font-size: 1.5rem;
+	position: absolute;
+	left: 4%;
+	right: 4%;
+	text-align: center;
+	margin:0% 20%;
 
 	
 }
@@ -123,6 +164,7 @@ body{
 	border:solid black 3px;
 	border-radius: 200px;
 	font-size: 20px;
+	
 }
 .trans{
 	transition: width 2s;
@@ -152,6 +194,3 @@ body{
     }
 }
 
-#ques{
-	margin:0% 20%;
-}

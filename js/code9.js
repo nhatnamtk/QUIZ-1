@@ -23,31 +23,49 @@ var f=0,a,b,c,d,question,l;
 
 var x;
 var att=0,p=0,s=0;
-getquestion();
-		function getquestion(){
-			x=Math.round(Math.random()*10);
-			if(s==1)
-			{	s=0;
-				getquestion();
-			}
-			else if(p==x){
-				s=1;
-				getquestion();
+
+	var i,x,w,k=0,t,n=0;
+	var ar=[];
+	function array(){
+		for(i=0;i<7;)
+			{	
+				k=0;
+				x=Math.round(Math.random()*questions.length);
+				ar[i]=x;
+				
+				for(w=0;w<i;w++)
+				{	
+					 if(ar[i]!=ar[w])
+					{
+						k++;
+					}
+				}
+				if(k==i)
+				{
+					i++;
+				}
 
 			}
+
+	}
+	array();
+getquestion();
+		function getquestion(){
+			
 			if(att>=7){
 				alert('You Got '+f+' Marks');
 				att=0;
 				f=0;
+				n=0;
 				getquestion();
 
 			}
 
-			     question=questions[x][0];
-			     a = questions[x][1];
-			     b = questions[x][2];
-			     c = questions[x][3];
-			     d = questions[x][4];
+			     question=questions[t][0];
+			     a = questions[t][1];
+			     b = questions[t][2];
+			     c = questions[t][3];
+			     d = questions[t][4];
 			document.getElementById("para1").innerHTML="Question "+(att+1)+" of 7";
 			document.getElementById("ques").innerHTML= question;
 
@@ -62,7 +80,7 @@ document.querySelector('#b2').addEventListener('click',checkb);
 document.querySelector('#b3').addEventListener('click',checkc);
 document.querySelector('#b4').addEventListener('click',checkd);
 				
-				p=x;
+				
 				
 			  //if(x!=0) document.querySelector(".container").innerHTML= " <button class='button' onclick ='prev()'> prev </button>";
 		
@@ -89,7 +107,7 @@ function checkd()
     run();
 }
 function run(){
-	var ans=questions[x][5];
+	var ans=questions[t][5];
     
         if(l==ans)
         {
@@ -98,6 +116,7 @@ function run(){
 
     alert("You Attempted "+l);
     att++;
+    n++;
     getquestion();
     
 }
