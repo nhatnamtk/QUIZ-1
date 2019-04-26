@@ -65,10 +65,7 @@ body{
 }
 
 @media screen and (max-width:959px) {
-  body{
-  background-size: 	100%;
   
-  }
  .b1{
  	position: absolute;
  }

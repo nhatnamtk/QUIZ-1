@@ -24,9 +24,9 @@ h3{
 
 }
 h3:hover{
-	border: 3px solid black;
-	border-radius: 50px;
-	font-size: 20px;
+	border: 2px solid black;
+	border-radius: 15px;
+	font-size: 10px;
 	padding: 0px;
 	
 }
@@ -101,7 +101,25 @@ body{
 	@media screen and (max-width:959px) {
   body {
     background-color: #aaaaaa;
+
   }
+  #exp{
+	position: absolute;
+	left: 40%;
+margin-top: 0px;
+font-size: 3rem;
+text-align: start;
+width: 11%;
+
+}
+h3:hover{
+	
+	border-radius: 20px;
+	font-size: 20px;
+	padding: 0px;
+	width: 250%;
+	
+}
   .container{
   	width: 100%;
   }
@@ -109,14 +127,14 @@ body{
   	
   	display: grid;
   	grid-template-columns: 1fr;
-  	margin-top: 60px;
-
+  	margin-top: 30%;
+  	left: 20%;
 
   }
   .b{
   	margin-left: 27%;
   	animation : animate 8s linear infinite;
-  	  	
+  	left: 0%;	
   }
   
   .head{
@@ -129,9 +147,46 @@ body{
      
   }
   h3{
-  	font-size: 13px;
+  	font-size: 16px;
+  	width: 300%;
+
 
   }
+  #ques{
+	transition:border-radius 2s;
+	transition:border 2s;
+	transition: font-size 2s;
+	font-size: 1.5rem;
+	position: absolute;
+	left: 4%;
+	right: 4%;
+	text-align: center;
+	margin:0% 20%;
+	padding: 20px;
+
+}
+#ques:hover{
+	border:solid black 1px;
+	border-radius: 1px;
+	font-size: 15px;
+
+} 
+.trans:hover{
+	border:solid black 1px;
+	border-radius: 1px;
+	font-size: 15px;
+	
+}
+.trans{
+	transition: width 2s;
+	transition:border-radius 2s;
+	transition:border 2s;
+	transition: font-size 2s;
+	font-size: 10px;
+	font-style: italic;
+	margin: 0% 40%;
+}
+  
 }
 
 @media screen and (max-width:320px) {
@@ -157,7 +212,7 @@ body{
 }
 #ques:hover{
 	border:solid black 3px;
-	border-radius: 200px;
+	border-radius: 50px;
 	font-size: 20px;
 }
 .trans:hover{
