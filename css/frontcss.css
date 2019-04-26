@@ -77,7 +77,6 @@ body{
 		grid-template-columns: 1fr;
 		justify-content:center;
 		position: relative;
-		
 		left: -20%;
   }
   .gh div{
