@@ -1,32 +1,32 @@
 var questions = [
-    ["Question : Which semiconductor material was used in the four probe's method to determine the energy band gap ?","Germanium","silicon","serellium","tin","A"],
-["Question : Which of the following band gaps can be considered to be that of semiconductors ?","0-1ev","1-4ev","4-6ev",">6ev","B"],
+    ["Câu hỏi : Tác giả của bài Phong cách Hồ Chí Minh là ai?","Lê Anh Trà","Phạm Văn Đồng","Lê Duẩn","Đặng Thai Mai","A"],
+["Câu hỏi : Phong cách của Hồ Chí Minh là sự kết hợp giữa ?","Vĩ đại và bình dị","Truyền thống và hiện đại","Dân tộc và nhân loại","Cả ba đáp án trên","D"],
 
-["Question : Which among the following is not a subunit of four probes method ?","Oven controller","Multirange digital voltmeter","constant current generator","Digital ammmeter","D"],
+["Câu hỏi : Vì sao Hồ Chủ tịch lại có vốn văn hóa sâu rộng?","Oven controller","Multirange digital voltmeter","constant current generator","Digital ammmeter","D"],
 
-["Question : What is the order of thickness of depletion layer ?","10<sup>-4</sup>","10<sup>-5</sup>","10<sup>-6</sup>","10<sup>-8</sup>","C"],
+["Câu hỏi : What is the order of thickness of depletion layer ?","10<sup>-4</sup>","10<sup>-5</sup>","10<sup>-6</sup>","10<sup>-8</sup>","C"],
 
-["Question : Which factor among the following does not control the resistivity of a semicondutor ?","Temperature","Band gap","crystalline orientation","Shape of conductor","D"],
+["Câu hỏi : Which factor among the following does not control the resistivity of a semicondutor ?","Temperature","Band gap","crystalline orientation","Shape of conductor","D"],
 
-["Question : The temperature coefficient of resistance of a semiconductor is :","Positive","Negative","Zero","none of these","B"],
+["Câu hỏi : The temperature coefficient of resistance of a semiconductor is :","Positive","Negative","Zero","none of these","B"],
 
-["Question : What is the full form of RTD sensors used in oven for variation of temperature of crystal ?","Resistance temperature detectors","real time detectors","Resistivity and temperature detectors","Resistance time detectors","A"],
+["Câu hỏi : What is the full form of RTD sensors used in oven for variation of temperature of crystal ?","Resistance temperature detectors","real time detectors","Resistivity and temperature detectors","Resistance time detectors","A"],
 
-["Question : Spacing between the probes used in the experiment is :","0.1cm","0.2cm","0.3cm","0.4cm","B"],
+["Câu hỏi : Spacing between the probes used in the experiment is :","0.1cm","0.2cm","0.3cm","0.4cm","B"],
 
-["Question : The four probes used for resistivity measurement contact surface at points lie on :","circle","line","ellipse","parabola","B"],
+["Câu hỏi : The four probes used for resistivity measurement contact surface at points lie on :","circle","line","ellipse","parabola","B"],
 
-["Question : The resistivity of pure germanium under standard conditions is about :","6*10<sup>4</sup> ohm-cm","60 ohm-cm","3*10<sup>6</sup> ohm-cm","6*10<sup>-4</sup> cm"],
+["Câu hỏi : The resistivity of pure germanium under standard conditions is about :","6*10<sup>4</sup> ohm-cm","60 ohm-cm","3*10<sup>6</sup> ohm-cm","6*10<sup>-4</sup> cm"],
 
-["Question : The oven temperature used in the four probes method varies from room temperature to about :","200 degrees","350 degrees","375 degrees","425 degrees","A"],
+["Câu hỏi : The oven temperature used in the four probes method varies from room temperature to about :","200 degrees","350 degrees","375 degrees","425 degrees","A"],
 
-["Question : The RTD elemet can''t be made of the following material :","Platinum","Nickel","Copper","Cobalt","D"],
+["Câu hỏi : The RTD elemet can''t be made of the following material :","Platinum","Nickel","Copper","Cobalt","D"],
 
-["Question : The graph between log of resistivity and reciprocal of temperature gives :","Straight line","Parabolic path","Circle","zig zag curve","A"],
+["Câu hỏi : The graph between log of resistivity and reciprocal of temperature gives :","Straight line","Parabolic path","Circle","zig zag curve","A"],
 
-["Question : Value of boltzmann's constant is :","8.6*10<sup>-5</sup>","4.2*10,<sup>-5</sup>","8.6*10<sup>-3</sup>","8.6*10<sup>-7</sup>","A"],
+["Câu hỏi : Value of boltzmann's constant is :","8.6*10<sup>-5</sup>","4.2*10,<sup>-5</sup>","8.6*10<sup>-3</sup>","8.6*10<sup>-7</sup>","A"],
 
-["Question : The energy gap is much more in silicon than in germanium because :","It has less number of electrons","It has high atomic mass number","Its crystal has much stronger bonds called ionic bonds","Its valence electrons are more tightly bond to parent nuclei","D"]
+["Câu hỏi : The energy gap is much more in silicon than in germanium because :","It has less number of electrons","It has high atomic mass number","Its crystal has much stronger bonds called ionic bonds","Its valence electrons are more tightly bond to parent nuclei","D"]
 ];
 var f=0,a,b,c,d,question,l;
 
